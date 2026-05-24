@@ -1,4 +1,4 @@
-Today you learned:
+chapter 1. functions foundations
 
 1. why functions exist
 2. abstraction
@@ -278,74 +278,73 @@ Today you learned:
 
     
 Interview Questions
-Q1. Why are JavaScript functions called first-class citizens?
+    Q1. Why are JavaScript functions called first-class citizens?
 
-Q2. Difference between:
-    declaring function
-    invoking function
+    Q2. Difference between:
+        declaring function
+        invoking function
 
-Q3. Can functions have properties?
+    Q3. Can functions have properties?
 
-Q4. Why are functions powerful in JavaScript?
+    Q4. Why are functions powerful in JavaScript?
 
 
 Small Exercises
 
-Exercise 1
-    Create:
-        multiply(a, b)
-    Return multiplication
+    Exercise 1
+        Create:
+            multiply(a, b)
+        Return multiplication
 
-    function multiply(a, b){
-        return a * b;
-    }
-    multiply(3, 5)
-
-Exercise 2
-    Store function in variable and execute it.
-
-    const subtrct = function (a, b){
-        return a - b;
-    }
-    subtrct(13, 5);
-
-
-Exercise 3
-    Add custom property to function.
-    function greeting(){}
-    greeting.day = "Thursday";
-    console.log(greeting.day)
-
-Exercise 4
-    Create function that returns another function.
-    function greeting(){
-        return function hello(){
-            console.log("hello mr/miss, how are you ?");
+        function multiply(a, b){
+            return a * b;
         }
-    }
-    greeting()();
+        multiply(3, 5)
+
+    Exercise 2
+        Store function in variable and execute it.
+
+        const subtrct = function (a, b){
+            return a - b;
+        }
+        subtrct(13, 5);
+
+
+    Exercise 3
+        Add custom property to function.
+        function greeting(){}
+        greeting.day = "Thursday";
+        console.log(greeting.day)
+
+    Exercise 4
+        Create function that returns another function.
+        function greeting(){
+            return function hello(){
+                console.log("hello mr/miss, how are you ?");
+            }
+        }
+        greeting()();
 
 
 Mini Challenge
 
-Build calculator functions:
-add()
-subtract()
-multiply()
-divide()
+    Build calculator functions:
+    add()
+    subtract()
+    multiply()
+    divide()
 
-    function add(a, b){
-        return a + b;
-    }
-    function subtract(a, b){
-        return a - b;
-    }
-    function multiply(a, b){
-        return a * b;
-    }
-    function divide(a, b){
-        return a / b;
-    }
+        function add(a, b){
+            return a + b;
+        }
+        function subtract(a, b){
+            return a - b;
+        }
+        function multiply(a, b){
+            return a * b;
+        }
+        function divide(a, b){
+            return a / b;
+        }
 
 
-    

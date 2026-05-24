@@ -1,4 +1,4 @@
-chapter 2
+chapter 2 functions introductions
 
 1. Function Declaration
 2. Function Expression
@@ -91,17 +91,17 @@ chapter 2
 
 
 
-| Feature                    | Function Declaration     | Function Expression           |
-| -------------------------- | ------------------------ | ----------------------------- |
-| Syntax                     | Direct function creation | Function assigned to variable |
-| Hoisting                   | Fully hoisted            | Variable hoisted only         |
-| Callable before definition | ✅ Yes                    | ❌ No                          |
-| Function creation time     | Memory phase             | Execution phase               |
-| Usually named?             | Yes                      | Often anonymous               |
-| Common usage               | Reusable logic           | Callbacks / dynamic behavior  |
+    | Feature                    | Function Declaration     | Function Expression           |
+    | -------------------------- | ------------------------ | ----------------------------- |
+    | Syntax                     | Direct function creation | Function assigned to variable |
+    | Hoisting                   | Fully hoisted            | Variable hoisted only         |
+    | Callable before definition | ✅ Yes                    | ❌ No                          |
+    | Function creation time     | Memory phase             | Execution phase               |
+    | Usually named?             | Yes                      | Often anonymous               |
+    | Common usage               | Reusable logic           | Callbacks / dynamic behavior  |
 
 
-Function declaration is fully hoisted and can be called before definition, while function expression is assigned during execution and cannot be called before initialization.
+    Function declaration is fully hoisted and can be called before definition, while function expression is assigned during execution and cannot be called before initialization.
 
 3. Anonymous Functions
 
@@ -498,9 +498,13 @@ Function declaration is fully hoisted and can be called before definition, while
     WRONG: They behave differently internally.
 
 
-    Interview Questions
-        Q1 Difference between normal and arrow function?
-        Q2 Why do arrow functions not have their own this?
-        Q3 Can arrow functions be constructors?
-        Q4 Why are arrow functions useful in callbacks?
-        Q5 Difference between: function(){} and () => {} internally ?
+Interview Questions
+    Q1 Difference between normal and arrow function?
+
+    Q2 Why do arrow functions not have their own this?
+
+    Q3 Can arrow functions be constructors?
+
+    Q4 Why are arrow functions useful in callbacks?
+
+    Q5 Difference between: function(){} and () => {} internally ?

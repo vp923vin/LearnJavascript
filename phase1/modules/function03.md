@@ -1,8 +1,17 @@
 Chapter 3 — Execution Context Deep Dive
+
 1. What is Execution Context?
-
-
-
+2. Types of Execution Context
+3. Two Phases of Execution Context
+4. Memory Creation Phase
+5. Why Variables Become undefined
+6. Why Function Declarations Work Before Definition
+7. Variable vs Function Hoisting
+8. Function Execution Context
+9. Call Stack
+10. Stack Overflow
+11. Internal JavaScript Engine Thinking
+12. Important Realization
 
 
 
