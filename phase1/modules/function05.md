@@ -1,9 +1,15 @@
 Chapter 5 — Hoisting Deep Dive
 1. What is Hoisting?
 2. Hoisting with var
-
-
-
+3. Function Hoisting
+4. Function Expression Hoisting
+5. let and const Hoisting
+6. Temporal Dead Zone (TDZ)
+7. Why TDZ Exists?
+8. const Hoisting
+9. Hoisting Comparison Table
+10. Internal Engine Thinking
+11. Common Beginner Mistakes
 
 
 1. What is Hoisting?

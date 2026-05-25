@@ -1,9 +1,17 @@
 Chapter 6 — "this" Keyword Complete Mastery
 
 1. What is "this"?
-
-
-
+2. Global this
+3. this Inside Normal Function
+4. this Inside Object Method
+5. this Depends on Call-Site
+6. Losing this
+7. Arrow Functions and this
+8. Wrong Arrow Function Usage
+9. Constructor Function this
+10. Explicit Binding
+11. Internal JavaScript Thinking
+12. Four Main this Rules
 
 
 
